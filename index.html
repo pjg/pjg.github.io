@@ -15,6 +15,32 @@
   <meta name="msapplication-TileImage" content="avatar-192x192.png">
 </head>
 
+<script type="text/javascript">
+var EmailObfuscator = {
+  // Collect all HTML elements with class="email"
+  collect_emails: function() {
+    var emails = document.getElementsByClassName("email");
+
+    for (var i=0; i<emails.length; i++) {
+      EmailObfuscator.convert(emails[i]);
+    }
+  },
+
+  // Convert selected element to a mailto: link
+  convert: function(element) {
+    var email = element.innerHTML.replace(/ AT /i, '@').replace(/ \. /g, '.').replace(/ DOT /ig, '.');
+    var link = '<a href="mailto:' + email + '">' + email + '</a>';
+
+    element.innerHTML = link;
+  }
+}
+
+// Add onLoad event
+window.addEventListener('load', function() {
+  EmailObfuscator.collect_emails();
+});
+</script>
+
 <style type="text/css">
 /* reset common stuff first */
 
@@ -197,7 +223,7 @@ section > h1 {
     <section class="contact">
       <div class="column-left">
         <ul>
-          <li><i class="fa fa-fw fa-envelope-o"></i>email</li>
+          <li><i class="fa fa-fw fa-envelope-o"></i><span class="email">pawel DOT goscicki AT gmail DOT com</span></li>
           <li><i class="fa fa-fw fa-phone"></i><a href="tel:+48602840799">+48 602 840 799</a></li>
           <li><i class="fa fa-fw fa-map-marker"></i>Gdańsk, Poland</li>
         </ul>
