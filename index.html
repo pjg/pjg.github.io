@@ -40,6 +40,54 @@ a:hover, a:active {
   outline: none;
 }
 
+/* FontAwesome bits */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src:  url('fontawesome-webfont.woff?v=4.6.3') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-fw {
+  margin-left: -0.3rem;
+  text-align: center;
+  width: 2.1rem;
+}
+
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+.fa-github:before {
+  content: "\f09b";
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+.fa-phone:before {
+  content: "\f095";
+}
+
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
 /* actual styles for the page */
 
 body {
@@ -149,17 +197,17 @@ section > h1 {
     <section class="contact">
       <div class="column-left">
         <ul>
-          <li>email</li>
-          <li><a href="tel:+48602840799">+48 602 840 799</a></li>
-          <li>Gdańsk, Poland</li>
+          <li><i class="fa fa-fw fa-envelope-o"></i>email</li>
+          <li><i class="fa fa-fw fa-phone"></i><a href="tel:+48602840799">+48 602 840 799</a></li>
+          <li><i class="fa fa-fw fa-map-marker"></i>Gdańsk, Poland</li>
         </ul>
       </div>
 
       <div class="column-right">
         <ul>
-          <li><a href="http://pawelgoscicki.com">pawelgoscicki.com</a></li>
-          <li><a href="https://pl.linkedin.com/in/pawelgoscicki">LinkedIn</a></li>
-          <li><a href="https://github.com/pjg">GitHub</a></li>
+          <li><i class="fa fa-fw fa-wordpress"></i><a href="http://pawelgoscicki.com">pawelgoscicki.com</a></li>
+          <li><i class="fa fa-fw fa-linkedin"></i><a href="https://pl.linkedin.com/in/pawelgoscicki">LinkedIn</a></li>
+          <li><i class="fa fa-fw fa-github"></i><a href="https://github.com/pjg">GitHub</a></li>
         </ul>
       </div>
     </section>
