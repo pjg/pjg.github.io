@@ -219,3 +219,11 @@ section > h1 {
 .languages .fa {
   color: #3f0e95;
 }
+
+.tags span {
+  border: 1px solid #3f0e95;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
