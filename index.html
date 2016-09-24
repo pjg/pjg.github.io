@@ -8,38 +8,15 @@
   <title>Paweł Gościcki's CV</title>
 
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+  <script type="text/javascript" src="application.js"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Kalam|Open+Sans:400,600" rel="stylesheet">
 
   <link rel="icon" href="images/avatar-192x192.png" sizes="192x192">
   <link rel="apple-touch-icon-precomposed" href="images/avatar-192x192.png">
   <meta name="msapplication-TileImage" content="images/avatar-192x192.png">
 </head>
-
-<script type="text/javascript">
-var EmailObfuscator = {
-  // Collect all HTML elements with class="email"
-  collect_emails: function() {
-    var emails = document.getElementsByClassName("email");
-
-    for (var i=0; i<emails.length; i++) {
-      EmailObfuscator.convert(emails[i]);
-    }
-  },
-
-  // Convert selected element to a mailto: link
-  convert: function(element) {
-    var email = element.innerHTML.replace(/ AT /i, '@').replace(/ \. /g, '.').replace(/ DOT /ig, '.');
-    var link = '<a href="mailto:' + email + '">' + email + '</a>';
-
-    element.innerHTML = link;
-  }
-}
-
-// Add onLoad event
-window.addEventListener('load', function() {
-  EmailObfuscator.collect_emails();
-});
-</script>
 
 <style type="text/css">
 /* reset common stuff first */
