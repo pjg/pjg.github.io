@@ -22,6 +22,10 @@ a:hover, a:active {
   outline: none;
 }
 
+li {
+  list-style: none;
+}
+
 /* FontAwesome bits */
 
 @font-face {
@@ -44,6 +48,10 @@ a:hover, a:active {
   margin-left: -0.3rem;
   text-align: center;
   width: 2.1rem;
+}
+
+.fa-calendar:before {
+  content: "\f073";
 }
 
 .fa-circle:before {
@@ -154,7 +162,6 @@ header > h2 {
 }
 
 .contact li {
-  list-style: none;
   margin: 0.6rem 0;
 }
 
@@ -198,7 +205,6 @@ section > h1 {
   display: flex;
   font-size: 105%;
   font-weight: bold;
-  list-style: none;
   padding: 0.8rem 0;
 }
 
@@ -226,4 +232,42 @@ section > h1 {
   display: inline-block;
   padding: 0.3rem 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.education-experience {
+  margin: 0;
+}
+
+.education-experience li {
+  border-bottom: 1px dotted #3f0e95;
+  padding: 1.3rem 0;
+}
+
+.education-experience li:last-child {
+  border-bottom: none;
+}
+
+.education-experience h2 {
+  font-size: 1.35rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.education-experience h3 {
+  color: #3f0e95;
+  font-size: 1.1rem;
+  margin: 1rem 0 0;
+}
+
+.education-experience .period {
+  margin: 0.3rem 0 0;
+}
+
+.education-experience .fa {
+  margin-left: 0.15rem;
+  margin-right: 0.3rem;
+}
+
+.education-experience .period span {
+  font-size: 90%;
 }
