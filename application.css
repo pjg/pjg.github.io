@@ -1,0 +1,175 @@
+/* reset common stuff first */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, fieldset, form, div {
+  margin: 0;
+          padding: 0;
+}
+
+address, blockquote, dl, h1, h2, h3, h4, h5, h6, ol, p, pre, ul {
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+html, body, fieldset, form, input, select, textarea {
+  font: 100%/120% 'Open Sans', Roboto, Ubuntu, Helvetica, Arial, sans-serif;
+}
+
+a:hover, a:active {
+  outline: none;
+}
+
+/* FontAwesome bits */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src:  url('fonts/fontawesome-webfont.woff?v=4.6.3') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-fw {
+  margin-left: -0.3rem;
+  text-align: center;
+  width: 2.1rem;
+}
+
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+.fa-github:before {
+  content: "\f09b";
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+.fa-phone:before {
+  content: "\f095";
+}
+
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
+/* actual styles for the page */
+
+body {
+  background: black;
+  color: white;
+}
+
+a {
+  color: #bbd9f4;
+  color: rgba(10, 138, 255, 0.69);
+}
+
+.container {
+  background: url("images/paper.jpg");
+  background-color: white;
+  color: black;
+  margin: 4rem auto;
+  min-height: 60rem;
+  padding: 6rem 4rem;
+  width: 70rem;
+}
+
+.stripe {
+  background: url("images/stripe.png");
+  background-repeat: repeat-x;
+  background-size: 91px 6px;
+  height: 6px;
+  margin: -5.6rem -4rem 5rem;
+}
+
+.content {
+  display: flex;
+}
+
+.column-left {
+  margin-right: 4rem;
+  width: 60%;
+}
+
+.column-right {
+  width: 40%;
+}
+
+header {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+header > h1 {
+  font-size: 3.57rem;
+  margin-top: 0;
+}
+
+header > h2 {
+  color: #3f0e95;
+}
+
+.contact {
+  display: flex;
+  width: 60%;
+}
+
+.contact .column-left {
+  margin-right: 0;
+  width: 50%;
+}
+
+.contact .column-right {
+  width: 50%;
+}
+
+.contact ul {
+  margin: 0;
+}
+
+.contact li {
+  list-style: none;
+  margin: 0.6rem 0;
+}
+
+.avatar {
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #fff, 0 0 0 6px #ccc;
+  position: absolute;
+  right: 5rem;
+  top: -2rem;
+  width: 14rem;
+}
+
+section > h1 {
+  border-bottom: 3px solid #3f0e95;
+  color: #3f0e95;
+  font-size: 2.2rem;
+  padding-bottom: 0.7rem;
+}
+
+.life-philosophy p {
+  font-family: 'Kalam', 'Times New Roman', 'Times', serif, cursive;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: #3f0e95;
+  line-height: 110%;
+}
