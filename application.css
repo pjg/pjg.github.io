@@ -259,15 +259,29 @@ section > h1 {
   margin: 0.7rem 0 0;
 }
 
+.education-experience .period-place {
+  display: flex;
+}
+
 .education-experience .period {
   margin: 0.4rem 0 0;
+  width: 55%;
+}
+
+.education-experience .place {
+  margin: 0.4rem 0 0;
+  width: 45%;
 }
 
 .education-experience .fa {
-  margin-left: 0.15rem;
+  margin-left: 0.1rem;
   margin-right: 0.3rem;
 }
 
-.education-experience .period span {
+.education-experience .period span, .education-experience .place span {
   font-size: 90%;
+}
+
+.education .period {
+  width: 100%;
 }
