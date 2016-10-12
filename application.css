@@ -272,13 +272,15 @@ section > h1 {
   display: flex;
 }
 
+.education-experience .period, .education-experience .place {
+  margin: 0.6rem 0 0;
+}
+
 .education-experience .period {
-  margin: 0.4rem 0 0;
   width: 55%;
 }
 
 .education-experience .place {
-  margin: 0.4rem 0 0;
   width: 45%;
 }
 
