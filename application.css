@@ -116,6 +116,11 @@ a {
   margin: -5.6rem -4rem 5rem;
 }
 
+.stripe-bottom {
+  margin-bottom: -5.6rem;
+  margin-top: 4rem;
+}
+
 .content {
   display: flex;
 }
