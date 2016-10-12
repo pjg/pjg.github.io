@@ -6,7 +6,7 @@
 
 html, body, fieldset, form, div {
   margin: 0;
-          padding: 0;
+  padding: 0;
 }
 
 address, blockquote, dl, h1, h2, h3, h4, h5, h6, ol, p, pre, ul {
@@ -16,6 +16,11 @@ address, blockquote, dl, h1, h2, h3, h4, h5, h6, ol, p, pre, ul {
 
 html, body, fieldset, form, input, select, textarea {
   font: 100%/120% 'Open Sans', Roboto, Ubuntu, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: 600;
 }
 
 a:hover, a:active {
@@ -31,7 +36,7 @@ li {
 @font-face {
   font-family: 'FontAwesome';
   src:  url('fonts/fontawesome-webfont.woff?v=4.6.3') format('woff');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -209,7 +214,7 @@ section > h1 {
   border-bottom: 1px dotted #3f0e95;
   display: flex;
   font-size: 105%;
-  font-weight: bold;
+  font-weight: 600;
   padding: 0.8rem 0;
 }
 
@@ -254,7 +259,7 @@ section > h1 {
 
 .education-experience h2 {
   font-size: 1.35rem;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0;
 }
 
