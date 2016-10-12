@@ -103,7 +103,7 @@ a {
 }
 
 .container {
-  background: url("images/paper.jpg");
+  background: url("images/paper.jpg?version=1");
   background-color: white;
   color: black;
   margin: 4rem auto;
@@ -113,7 +113,7 @@ a {
 }
 
 .stripe {
-  background: url("images/stripe.png");
+  background: url("images/stripe.png?version=1");
   background-repeat: repeat-x;
   background-size: 91px 6px;
   height: 6px;
