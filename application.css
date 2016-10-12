@@ -294,3 +294,16 @@ section > h1 {
 .education .period {
   width: 100%;
 }
+
+.experience-details {
+  margin: 1rem 0 0 1rem;
+  padding: 0 0 0 0.45rem;
+}
+
+.experience-details li {
+  border-bottom: none;
+  color: #555;
+  font-size: 90%;
+  list-style-type: disc;
+  padding: 0 0 0.3rem;
+}
