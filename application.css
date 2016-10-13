@@ -103,7 +103,7 @@ a {
 }
 
 .container {
-  background: url("images/paper.jpg?version=1");
+  background: url("images/paper.jpg?version=2");
   background-color: white;
   color: black;
   margin: 4rem auto;
@@ -113,7 +113,7 @@ a {
 }
 
 .stripe {
-  background: url("images/stripe.png?version=1");
+  background: url("images/stripe.png?version=2");
   background-repeat: repeat-x;
   background-size: 91px 6px;
   height: 6px;
@@ -126,7 +126,7 @@ a {
 }
 
 .content {
-  background: url("images/ruby-logo.png?version=1") 53% 15rem no-repeat, url("images/rails-logo.png?version=1") 53% 54rem no-repeat;
+  background: url("images/ruby-logo.png?version=2") 53% 15rem no-repeat, url("images/rails-logo.png?version=2") 53% 54rem no-repeat;
   display: flex;
 }
 
