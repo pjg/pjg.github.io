@@ -126,6 +126,7 @@ a {
 }
 
 .content {
+  background: url("images/ruby-logo.png?version=1") 53% 11% no-repeat;
   display: flex;
 }
 
