@@ -3,4 +3,4 @@
 You can see it at <a href="http://cv.pawelgoscicki.com">http://cv.pawelgoscicki.com</a>.
 
 
-Copyright © 2016 by Paweł Gościcki. All rights reserved.
+Copyright © 2016-2018 by Paweł Gościcki. All rights reserved.
