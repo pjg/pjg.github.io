@@ -203,6 +203,7 @@ section > h1 {
 }
 
 .bio p {
+  line-height: 160%;
   margin: 1rem 0;
 }
 
