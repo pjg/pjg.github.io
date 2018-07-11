@@ -139,17 +139,17 @@ a {
   width: 40%;
 }
 
-header {
+.intro {
   margin-bottom: 1.5rem;
   position: relative;
 }
 
-header > h1 {
+.intro > h1 {
   font-size: 3.57rem;
   margin-top: 0;
 }
 
-header > h2 {
+.intro > h2 {
   color: #3f0e95;
 }
 
