@@ -228,6 +228,12 @@ section > h1 {
   width: 30%;
 }
 
+.languages .language i {
+  color: #888;
+  font-weight: 500;
+  font-size: 90%;
+}
+
 .languages .rating {
   text-align: right;
   width: 70%;
