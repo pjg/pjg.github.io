@@ -99,7 +99,7 @@ body {
 }
 
 a {
-  color: rgba(10, 138, 255, 0.69);
+  color: rgba(8, 67, 247, 0.69);
 }
 
 .container {
@@ -317,4 +317,12 @@ section > h1 {
   font-size: 90%;
   list-style-type: disc;
   padding: 0 0 0.3rem;
+}
+
+.experience-details .technology {
+  color: #7a5baf;
+}
+
+.experience-details .period {
+  color: #ccc;
 }
