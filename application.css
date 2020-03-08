@@ -91,6 +91,10 @@ li {
   content: "\f19a";
 }
 
+.fa-star:before {
+  content: "\f005";
+}
+
 /* actual styles for the page */
 
 body {
@@ -190,7 +194,7 @@ h3 {
   color: #3f0e95;
   font-size: 1.5rem;
   margin-bottom: 0.7rem;
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
   padding-bottom: 0.8rem;
 }
 
@@ -251,6 +255,11 @@ h3 {
   padding: 0.3rem 0.6rem;
   margin-bottom: 0.5rem;
   margin-right: 0.3rem;
+}
+
+.tags .fa {
+  color: #3f0e95;
+  margin-left: 2px;
 }
 
 .education-experience {
@@ -329,6 +338,7 @@ h3 {
   background: rgba(122, 91, 175, 0.12);
   color: #949494;
   padding: 0 5px;
+  white-space: nowrap;
 }
 
 .experience-details .period {
