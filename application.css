@@ -103,7 +103,7 @@ a {
 }
 
 .container {
-  background: url("images/paper.jpg?version=2");
+  background: url("images/paper.jpg");
   background-color: white;
   color: black;
   margin: 4rem auto;
@@ -113,7 +113,7 @@ a {
 }
 
 .stripe {
-  background: url("images/stripe.png?version=2");
+  background: url("images/stripe.png");
   background-repeat: repeat-x;
   background-size: 91px 6px;
   height: 6px;
@@ -126,7 +126,7 @@ a {
 }
 
 .content {
-  background: url("images/ruby-logo.png?version=2") 53% 15rem no-repeat, url("images/rails-logo.png?version=2") 53% 54rem no-repeat;
+  background: url("images/ruby-logo.png") 53% 15rem no-repeat, url("images/rails-logo.png") 53% 54rem no-repeat;
   display: flex;
 }
 
@@ -140,17 +140,18 @@ a {
 }
 
 .intro {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.3rem;
   position: relative;
 }
 
-.intro > h1 {
+h1 {
   font-size: 3.57rem;
   margin-top: 0;
 }
 
-.intro > h2 {
+h2 {
   color: #3f0e95;
+  margin-top: 2rem;
 }
 
 .contact {
@@ -184,10 +185,10 @@ a {
   width: 14rem;
 }
 
-section > h1 {
+h3 {
   border-bottom: 3px solid #3f0e95;
   color: #3f0e95;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   margin-bottom: 0.7rem;
   margin-top: 3.5rem;
   padding-bottom: 0.8rem;
@@ -195,7 +196,7 @@ section > h1 {
 
 .life-philosophy p {
   font-family: 'Kalam', 'Times New Roman', 'Times', serif, cursive;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-style: italic;
   color: #3f0e95;
   line-height: 110%;
@@ -261,17 +262,21 @@ section > h1 {
   padding: 1.8rem 0;
 }
 
+.education-experience > li:first-child {
+  padding-top: 1.3rem;
+}
+
 .education-experience li:last-child {
   border-bottom: none;
 }
 
-.education-experience h2 {
+.education-experience h4 {
   font-size: 1.35rem;
   font-weight: 400;
   margin: 0;
 }
 
-.education-experience h3 {
+.education-experience h5 {
   color: #3f0e95;
   font-size: 1.1rem;
   margin: 0.7rem 0 0;
@@ -315,12 +320,15 @@ section > h1 {
   border-bottom: none;
   color: #555;
   font-size: 90%;
+  line-height: 130%;
   list-style-type: disc;
   padding: 0 0 0.3rem;
 }
 
 .experience-details .technology {
-  color: #7a5baf;
+  background: rgba(122, 91, 175, 0.12);
+  color: #949494;
+  padding: 0 5px;
 }
 
 .experience-details .period {
