@@ -212,11 +212,11 @@ h3 {
   margin: 1rem 0;
 }
 
-.languages ul {
+.skills ul {
   margin-top: 0;
 }
 
-.languages li {
+.skills li {
   border-bottom: 1px dotted #3f0e95;
   display: flex;
   font-size: 105%;
@@ -224,27 +224,27 @@ h3 {
   padding: 0.8rem 0;
 }
 
-.languages li:last-child {
+.skills li:last-child {
   border-bottom: none;
 }
 
-.languages .language {
+.skills .skill {
   margin: 0;
   width: 30%;
 }
 
-.languages .language i {
+.skills .skill i {
   color: #888;
   font-weight: 500;
   font-size: 90%;
 }
 
-.languages .rating {
+.skills .rating {
   text-align: right;
   width: 70%;
 }
 
-.languages .fa {
+.skills .fa {
   color: #3f0e95;
 }
 
